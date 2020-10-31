@@ -17,7 +17,7 @@
 
    *For example: `onedrive.exe`. If you're not sure the exe name, check in task manager.*
 
-5. List the paths to files you want to run in `Bin\launch.txt`
+5. List the paths to files you want to run once a game closes in `Bin\launch.txt`
    *For example: `"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Rainmeter.lnk"`. If you're not sure where it is, find it in the start menu, right click, and select "Open File Location".*
 
 6. If you want to kill or launch tasks for specific games, create text files in `Bin\KillOnGame\` and `Bin\StartOnGame\` respectively, with the name of the program.
