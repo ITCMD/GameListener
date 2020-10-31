@@ -32,6 +32,7 @@
   For example, I needed to run onedrive with `"C:\Users\ldell\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background`. I created a shortcut with that exact line as its target, and linked to the shortcut file in GameListener.
 - You can change the refresh speeds for non-game-mode and game mode on lines `20` and `65` respectively.
 - You can easily check if GameListener is in game mode with [CMDS](https://github.com/ITCMD/CMDS) via the window title. If GameListener is in game mode, you'll see ` Game Listener for Killing Programs [Game]`. Otherwise, you'll see ` Game Listener for Killing Programs [No Game]`.
+- If you need to start a program with admin access, you can create a shortcut that bypasses the UAC prompt using the task scheduler. Check out this guide on Tech Republic: https://www.techrepublic.com/blog/windows-and-office/run-uac-restricted-programs-without-the-uac-prompt/
 
 
 
