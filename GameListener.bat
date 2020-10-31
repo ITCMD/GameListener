@@ -1,4 +1,5 @@
 @echo off
+Rem Gamelistener by SetLucas/SystemInfo/Lucas https://github.com/ITCMD
 if /i "%~1"=="/s" goto setupscript
 if /i "%~1"=="-s" goto setupscript
 if exist Bin cd Bin
